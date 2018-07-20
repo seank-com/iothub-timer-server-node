@@ -1,0 +1,26 @@
+{
+  "name": "iothub-timer-server-node",
+  "version": "1.0.0",
+  "description": "The consumer side of an IoTHub timing solution as a node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seank-com/iothub-timer-server-node.git"
+  },
+  "author": "SeanK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seank-com/iothub-timer-server-node/issues"
+  },
+  "homepage": "https://github.com/seank-com/iothub-timer-server-node#readme",
+  "dependencies": {
+    "azure-event-hubs": "^0.2.3",
+    "azure-iot-common": "^1.7.1",
+    "azure-iothub": "^1.7.1",
+    "dotenv": "^6.0.0",
+    "uuid": "^3.3.2"
+  }
+}
